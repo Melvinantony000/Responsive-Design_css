@@ -560,11 +560,10 @@ img.sidebar {
         .col-bott-comm{
             color:  rgb(177, 162, 162);
         }
-       /*dtxffyguyfgcjhhiugggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg*/
+    
 
-        @media only screen and (max-width:350px){
-          /* navbar  start*/
-          .togle_img{ 
+        @media only screen and (max-width:700px){
+           .togle_img{ 
             display: block;
           }
           nav .menu{
@@ -593,13 +592,7 @@ img.sidebar {
             color: #fff;
             background-color:#3f3f41;
 
-          }
-           
-          /*navbar end*/
-
-
-           /*form page start*/
-
+          } 
            .row{
             display: flex;
             justify-content: space-between;
@@ -616,10 +609,8 @@ img.sidebar {
             flex-basis: 40%;
             position: relative;
             margin: 0px;
-            padding: 0px;
-                         
-          }
-
+            padding: 0px;     
+          } 
           .col-1 p{
              width: 260px;
              height: 100px;
@@ -633,18 +624,14 @@ img.sidebar {
          }
          .col-1 span{
           font-size: 15px;
-          }
-           
+          } 
           .img-1{
             width:  300px;
             height: 400px;
             object-fit: contain;
             margin: 0px;
             padding: 0px;
-        }
-            /*form page end*/
-
-         /* content start*/
+        } 
          .Why-Omega-would-be-y{
           width: 350px;
           height: 100px;
@@ -660,35 +647,31 @@ img.sidebar {
            margin: 0;
           font-size: 10px;
           text-align: center;
-          }
-                   /* content end*/
- 
- 
-                   .row_comm{
-                     flex-direction: column-reverse;
-                     margin:0px;
-                     padding: 0px;
-                 }
-                 .col_comm{
-                  flex-basis: 40%;
-                  position: relative;
-                  margin-top: 10px;
-                  margin-left:0px;
-                  margin-bottom:10px;
-              } 
-
-              .Drag-and-drop-every {
-                width: 300px;
-                height: 50px;
-                margin: 1.5rem 0;
-                font-family: CircularStd;
-                font-size: 30px; 
-                font-weight: bold;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.17;
-                letter-spacing: -1.69px;
-                color: #fff;
+          } 
+          .row_comm{
+            flex-direction: column-reverse;
+            margin:0px;
+            padding: 0px;
+            }
+          .col_comm{
+           flex-basis: 40%;
+           position: relative;
+           margin-top: 10px;
+           margin-left:0px;
+           margin-bottom:10px;
+           } 
+          .Drag-and-drop-every {
+           width: 300px;
+           height: 50px;
+           margin: 1.5rem 0;
+           font-family: CircularStd;
+          font-size: 30px; 
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.17;
+          letter-spacing: -1.69px;
+          color: #fff;
               }
               .btt_newFeat{
                 width:  10px;
@@ -806,245 +789,3 @@ img.sidebar {
 
 
 
-
-
-        @media only screen and (max-width:700px){
-          /* navbar  start*/
-          .togle_img{ 
-            display: block;
-          }
-          nav .menu{
-            display: none;
-            
-          }
-          nav .menu.is-active{ 
-            display:block;
-            
-          }
-          nav ul{
-            width: 100%;
-            background-color: #3f3f41;
-            position: absolute;
-            top:75px;
-            right: 0;
-            z-index: 2;
-          }
-          nav ul li{
-            display: block;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            background-color: #3f3f41;
-          }
-          nav ul li a{
-            color: #fff;
-            background-color:#3f3f41;
-
-          }
-           
-          /*navbar end*/
-
-
-           /*form page start*/
-
-           .row{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;             
-          }
-           .col-1{ 
-             flex-basis: 40%; 
-             position: relative; 
-             margin: 0px;
-             padding: 0px;
-                         
-          }
-          .col-2{ 
-            flex-basis: 40%;
-            position: relative;
-            margin: 0px;
-            padding: 0px;
-                         
-          }
-
-          .col-1 p{
-             width: 260px;
-             height: 100px;
-             margin: 0px;
-             font-size: 30px;
-             font-weight: bold;
-             font-family: CircularStd; 
-             line-height: 1.05;
-             letter-spacing: .25px;  
-             color: #fff;
-         }
-         .col-1 span{
-          font-size: 15px;
-          }
-           
-          .img-1{
-            width:  300px;
-            height: 400px;
-            object-fit: contain;
-            margin: 0px;
-            padding: 0px;
-        }
-            /*form page end*/
-
-         /* content start*/
-         .Why-Omega-would-be-y{
-          width: 350px;
-          height: 100px;
-          margin: auto;
-          padding: 0px;
-          font-size: 30px; 
-          text-align: center;
-          color: #fff; 
-         }    
-         .Watch-this-1-min-vid{
-          padding-left: 32%;
-          padding-right: 25%;
-           margin: 0;
-          font-size: 10px;
-          text-align: center;
-          }
-                   /* content end*/
- 
- 
-                   .row_comm{
-                     flex-direction: column-reverse;
-                     margin:0px;
-                     padding: 0px;
-                 }
-                 .col_comm{
-                  flex-basis: 40%;
-                  position: relative;
-                  margin-top: 10px;
-                  margin-left:0px;
-                  margin-bottom:10px;
-              } 
-
-              .Drag-and-drop-every {
-                width: 300px;
-                height: 50px;
-                margin: 1.5rem 0;
-                font-family: CircularStd;
-                font-size: 30px; 
-                font-weight: bold;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.17;
-                letter-spacing: -1.69px;
-                color: #fff;
-              }
-              .btt_newFeat{
-                width:  10px;
-                height: 10px;
-                font-family: CircularStd;
-                font-size: 15px;
-                font-weight: bold;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: -0.37px;
-                padding:5px;
-                text-decoration: none;
-                background-color: #6975df;
-                border-radius: 4.5px;
-                color: #fff;
-              }
-              .Create-custom-landin {
-                width: 28.75rem;
-                height: 6.563rem;
-                margin: 1.5rem 0 0;
-                font-family: CircularStd;
-                font-size: 15px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.86;
-                letter-spacing: -0.59px;
-                color:  #fff;
-            }
-            .Frequently-Asked-Que {
-              width: 41rem;
-              height: 50px;
-              margin: auto;
-              font-family: CircularStd;
-              font-size: 40px;
-              font-weight: bold;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: 1.17;
-              letter-spacing: -1.69px;
-              text-align: center;
-              color: #fff;
-            }
-            .Create-custom {
-              width: 400px;
-              height: 2.188rem;
-              margin: auto;
-              padding-bottom: 10px;
-              font-family: CircularStd;
-              font-size: 15px;
-              font-weight: normal;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: 1.86;
-              letter-spacing: -0.59px;
-              text-align: center;
-              color: rgb(177, 162, 162);
-            }
-            .head_custom{
-              width: 30px;
-              height: 20px;
-              /* margin: 0 9.563rem 1.125rem 10.75rem; */
-              font-family: CircularStd;
-              font-size: 25px;
-              font-weight: bold;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: 1.17;
-              letter-spacing: -1.69px;
-              text-align: center;
-              color: #fff;
-          }
-          .body_para{
-            width: 400px;
-            height: 200;
-            color: rgb(177, 162, 162);
-            padding-top: 20px;
-            font-size: 15px;
-        }
-        .Save-tons-of-time-G {
-          width: 300px;
-          font-family: CircularStd;
-          font-size:  30px;
-          font-weight: bold;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 1.17;
-          letter-spacing: -1.69px;
-          color: #fff;
-          background-color:  #1e1e20;
-         }
-         .bottem_btt{
-           margin-left: 40px;
-           padding: 0px;
-           font-size: 10px;
-           font-weight: bold;
-
-        }
-        .bottom_omega{
-          display: none;
-         }
-         .bottom_link{
-          list-style: none;
-          display: inline-block;
-          margin-right: 30px;
-          font-size: 10px;
-      }
-      .col-bott-comm{
-        font-size: 10px;
-        color:  rgb(177, 162, 162);
-    }  
-        }   
